@@ -1,57 +1,14 @@
-public class Iphone implements AparelhoTelefonico,NavegadorInternet,ReprodutorMusical {
+public abstract class Iphone {
+    public abstract void ligar();
+    public abstract void atender();
+    public abstract void iniciarCorreioVoz();
 
-    @Override
-    public void tocar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tocar'");
-    }
+    public abstract void tocar();
+    public abstract void pausar();
+    public abstract void selecionarMusica();
 
-    @Override
-    public void pausar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pausar'");
-    }
+    public abstract void exibirPagina();
+    public abstract void adicionarNovaAba();
+    public abstract void atualizarPagina();
 
-    @Override
-    public void selecionarMusica() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'selecionarMusica'");
-    }
-
-    @Override
-    public void exibirPagina() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'exibirPagina'");
-    }
-
-    @Override
-    public void adicionarNovaAba() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'adicionarNovaAba'");
-    }
-
-    @Override
-    public void atualizarPagona() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atualizarPagona'");
-    }
-
-    @Override
-    public void ligar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'ligar'");
-    }
-
-    @Override
-    public void atender() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atender'");
-    }
-
-    @Override
-    public void iniciarCorreioVoz() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'iniciarCorreioVoz'");
-    }
- 
 }
